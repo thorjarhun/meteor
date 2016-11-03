@@ -34,7 +34,7 @@
 
         <div class="row">
           <div class="span6">
-            {{> map}}
+            {{> my_map}}
             {{#if currentUser}}
             <div class="pagination-centered">
               <em><small>Double click the map to post a party!</small></em>
@@ -52,7 +52,7 @@
   </div>
 </template>
 
-<template name="map">
+<template name="my_map">
   <div class="map">
     <svg width="500" height="500">
       <circle class="callout" cx=-100 cy=-100></circle>
